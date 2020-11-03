@@ -1,14 +1,3 @@
-{
-    "name": "Unity.2D.IK.EditorTests",
-    "references": [
-        "Unity.2D.IK.Editor"
-    ],
-    "optionalUnityReferences": [
-        "TestAssemblies"
-    ],
-    "includePlatforms": [
-        "Editor"
-    ],
-    "excludePlatforms": [],
-    "allowUnsafeCode": false
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:6795729546e2fa0e2e06fb92b3d1643cc7f3c92203f2a81de96fcacf77afc38b
+size 283

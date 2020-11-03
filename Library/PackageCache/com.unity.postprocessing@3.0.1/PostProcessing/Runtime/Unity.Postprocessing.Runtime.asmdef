@@ -1,29 +1,3 @@
-{
-    "name": "Unity.Postprocessing.Runtime",
-    "references": [],
-    "optionalUnityReferences": [],
-    "includePlatforms": [],
-    "excludePlatforms": [],
-    "versionDefines": [
-        {
-            "name": "com.unity.render-pipelines.lightweight",
-            "expression": "1.0.0",
-            "define": "LWRP_1_0_0_OR_NEWER"
-        },
-        {
-            "name": "com.unity.render-pipelines.universal",
-            "expression": "1.0.0",
-            "define": "UNIVERSAL_1_0_0_OR_NEWER"
-        },
-        {
-            "name": "com.unity.modules.vr",
-            "expression": "1.0.0",
-            "define": "ENABLE_VR_MODULE"
-        },
-        {
-            "name": "com.unity.modules.xr",
-            "expression": "1.0.0",
-            "define": "ENABLE_XR_MODULE"
-        }
-    ]
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:e36363449d6f1fc90f852f06f80f9db6716a1fbd3f55e291ad246fa0ea49d820
+size 828

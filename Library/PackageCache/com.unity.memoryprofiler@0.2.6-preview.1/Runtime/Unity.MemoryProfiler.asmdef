@@ -1,13 +1,3 @@
-{
-    "name": "Unity.MemoryProfiler",
-    "references": [],
-    "optionalUnityReferences": [],
-    "includePlatforms": [],
-    "excludePlatforms": [],
-    "allowUnsafeCode": true,
-    "overrideReferences": false,
-    "precompiledReferences": [],
-    "autoReferenced": true,
-    "defineConstraints": [],
-    "versionDefines": []
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:cc6317c2dbc54263a2a97611e5240b986b6bd94dd344f015eb1b6177b6b966c4
+size 329

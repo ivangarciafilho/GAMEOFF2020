@@ -1,12 +1,3 @@
-{
-    "name": "PlayModeTests",
-    "references": [
-        "Autodesk.Fbx"
-    ],
-    "optionalUnityReferences": [
-        "TestAssemblies"
-    ],
-    "includePlatforms": [],
-    "excludePlatforms": [],
-    "allowUnsafeCode": false
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:ed907ac083870fde8d298aadc6421066f84fed6e9091db159fd075b60fb55dbe
+size 243

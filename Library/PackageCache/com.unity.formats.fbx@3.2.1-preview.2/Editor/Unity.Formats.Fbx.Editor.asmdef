@@ -1,22 +1,3 @@
-{
-    "name": "Unity.Formats.Fbx.Editor",
-    "references": [
-        "Unity.Timeline",
-        "Unity.Timeline.Editor",
-        "Unity.Formats.Fbx.Runtime",
-        "Autodesk.Fbx",
-        "Unity.Recorder.Editor",
-        "Unity.Recorder"
-    ],
-    "includePlatforms": [
-        "Editor"
-    ],
-    "excludePlatforms": [],
-    "allowUnsafeCode": false,
-    "overrideReferences": false,
-    "precompiledReferences": [],
-    "autoReferenced": true,
-    "defineConstraints": [],
-    "versionDefines": [],
-    "noEngineReferences": false
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:47dd955f2204bab05ba67e548f73ca70f314c8986b4b1cd1dffe4117c1c7faea
+size 537

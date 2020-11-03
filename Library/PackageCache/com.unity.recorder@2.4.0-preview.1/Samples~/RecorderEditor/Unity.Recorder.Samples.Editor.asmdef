@@ -1,17 +1,3 @@
-﻿{
-    "name": "Unity.Recorder.Samples.Editor",
-    "references": [
-        "Unity.Recorder.Editor"
-    ],
-    "optionalUnityReferences": [],
-    "includePlatforms": [
-        "Editor"
-    ],
-    "excludePlatforms": [],
-    "allowUnsafeCode": false,
-    "overrideReferences": false,
-    "precompiledReferences": [],
-    "autoReferenced": true,
-    "defineConstraints": [],
-    "versionDefines": []
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:a96ad86df48b9f6bf1d0261be10defb4aa6633dc78ef3b001f70d9f67ebe39c1
+size 401

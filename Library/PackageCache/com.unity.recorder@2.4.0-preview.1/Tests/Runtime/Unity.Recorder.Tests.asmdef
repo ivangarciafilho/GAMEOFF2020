@@ -1,13 +1,3 @@
-{
-    "name": "Unity.Recorder.Tests",
-    "references": [
-        "Unity.Recorder",
-        "Unity.Recorder.Editor",
-        "Unity.Timeline"
-    ],
-    "optionalUnityReferences": [
-        "TestAssemblies"
-    ],
-    "includePlatforms": [],
-    "excludePlatforms": []
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:7e2469257b6aa550e61f39b5541425249aac0167cfb1c0206f650c60f70801f4
+size 271

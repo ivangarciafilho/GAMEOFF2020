@@ -1,13 +1,3 @@
-{
-    "name": "Unity.Recorder.Editor",
-    "references": [
-      "Unity.Recorder.Base",
-      "Unity.Recorder",
-	  "Unity.Timeline"
-    ],
-    "includePlatforms": [
-        "Editor"
-    ],
-    "excludePlatforms": [],
-    "allowUnsafeCode": true
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:e935867a00967a293b0d5e2c34026ff5e20934a6dffce05743de71167752dcb6
+size 247
