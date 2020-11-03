@@ -1,0 +1,65 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Enemy
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - PFXVolumes
+  - Small
+  - Medium
+  - Large
+  - Protagonist
+  - Protagonist_Attacks
+  - Antagonist
+  - Antagonist_Attacks
+  - Neutral
+  - Ground
+  - Scenario
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: Background_Horizontal
+    uniqueID: 966340215
+    locked: 0
+  - name: Background_Vertical
+    uniqueID: 2798722101
+    locked: 0
+  - name: Middle_Horizontal
+    uniqueID: 683793873
+    locked: 0
+  - name: Middle_Vertical
+    uniqueID: 960324887
+    locked: 0
+  - name: Foreground_Horizontal
+    uniqueID: 1351043183
+    locked: 0
+  - name: Foreground_Vertical
+    uniqueID: 3526469735
+    locked: 0
+  - name: Screen
+    uniqueID: 259573113
+    locked: 0
