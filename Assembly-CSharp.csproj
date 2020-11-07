@@ -97,6 +97,8 @@
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexShakeB.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexZoom.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\WarpTextExample.cs" />
+    <Compile Include="Assets\_Project\_Scripts\Bullet.cs" />
+    <Compile Include="Assets\_Project\_Scripts\Gun.cs" />
     <Compile Include="Assets\_Project\_Scripts\_Components\AddVelocityTowardsClosestEntity.cs" />
     <Compile Include="Assets\_Project\_Scripts\_Components\AnimateFloatValue.cs" />
     <Compile Include="Assets\_Project\_Scripts\_Components\ApplyHealthUpdate.cs" />
