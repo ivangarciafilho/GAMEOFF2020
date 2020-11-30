@@ -9,6 +9,8 @@ public class Ball : MonoBehaviour
 	public float maxForce = 600.0f;
  
 	float targetCustomGravity = -10.0f;
+	
+	Vector3 ballPosWhenThrow;
  
     void Start()
     {
@@ -30,10 +32,19 @@ public class Ball : MonoBehaviour
 	}
 
 	public void Throw(Vector2 dir, float force)
-    {
+	{
+		ballPosWhenThrow = transform.position;
+    	
 		dir *= force;
 	    rb2D.AddForce(dir);
 		
-	    body.custtomOffsetGravity = 0.0f;
-    }
+		body.custtomOffsetGravity = 0.0f;
+	    
+		GameManager.instance.SignalThrow();
+	}
+    
+	public void ResetPosition()
+	{
+		transform.position = ballPosWhenThrow;
+	}
 }

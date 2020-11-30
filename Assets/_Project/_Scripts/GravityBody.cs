@@ -7,6 +7,8 @@ public class GravityBody : MonoBehaviour
 	public float custtomOffsetGravity = 0.0f;
 	Rigidbody2D rb2D;
 	Transform myTransform;
+	
+	public GravityAttractor attractor { get; private set; }
 
 	void Start () 
 	{
@@ -27,6 +29,12 @@ public class GravityBody : MonoBehaviour
 		{
 			var attractor = GravityAttractor.attractors[i];
 			float mag = (attractor.transform.position - transform.position).magnitude;
+			if(attractor.useDistanceField) // if use distance field 
+			{
+				if(mag > attractor.distanceField) // if distance if bigger already than the distanceField, discard it
+					continue;
+			}
+			
 			
 			if(mag < closestMag)
 			{
@@ -35,6 +43,9 @@ public class GravityBody : MonoBehaviour
 			}
 		}
 		
-		closestAttractor.Attract(myTransform, custtomOffsetGravity);
+		attractor = closestAttractor;
+		
+		if(closestAttractor != null)
+			closestAttractor.Attract(myTransform, custtomOffsetGravity);
 	}
 }
