@@ -7,12 +7,30 @@ public class Flag : MonoBehaviour
 {
 	public UnityEvent OnReachThisGoal = new UnityEvent();
 	
+	public SpriteRenderer spriteRend;
+	public Sprite spriteDown;
+	
 	bool checkForSpeed;
+	
+	static Flag currentFlag;
 
     void Start()
     {
         
     }
+    
+	// This function is called when the object becomes enabled and active.
+	protected void OnEnable()
+	{
+		if(currentFlag != null)
+		{
+			GameManager.instance.targetGroup.RemoveMember(currentFlag.transform);
+		}
+		
+		currentFlag = this;
+		
+		GameManager.instance.targetGroup.AddMember(transform, 0.6f, 0);
+	}
 
     void Update()
     {
@@ -22,6 +40,8 @@ public class Flag : MonoBehaviour
 	    	{
 		    	gameObject.SetActive(false);
 		    	OnReachThisGoal.Invoke();
+		    	
+		    	spriteRend.sprite = spriteDown;
 		    	
 		    	checkForSpeed = false;
 	    	}

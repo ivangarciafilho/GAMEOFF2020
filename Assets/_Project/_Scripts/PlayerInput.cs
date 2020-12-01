@@ -57,6 +57,12 @@ public class PlayerInput : MonoBehaviour
 			lineInput.enabled = false;
 		}
 	}
+	
+	// This function is called when the behaviour becomes disabled () or inactive.
+	protected void OnDisable()
+	{
+		lineInput.enabled = false;
+	}
     
 	void FixedUpdate()
 	{

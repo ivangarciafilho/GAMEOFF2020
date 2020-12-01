@@ -15,7 +15,13 @@ public class GravityAttractor : MonoBehaviour
 	{
 		attractors.Add(this);
 	}
-
+	
+	// This function is called when the MonoBehaviour will be destroyed.
+	protected void OnDestroy()
+	{
+		attractors.Remove(this);
+	}
+	
 	public void Attract(Transform body, float offsetGravity = 0.0f) 
 	{			
 		Vector3 gravityUp = (body.position - transform.position).normalized;

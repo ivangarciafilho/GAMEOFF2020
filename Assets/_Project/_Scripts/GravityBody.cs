@@ -28,6 +28,8 @@ public class GravityBody : MonoBehaviour
 		for(int i = 0; i < GravityAttractor.attractors.Count; i++)
 		{
 			var attractor = GravityAttractor.attractors[i];
+			if(!attractor.gameObject.activeInHierarchy) continue;
+			
 			float mag = (attractor.transform.position - transform.position).magnitude;
 			if(attractor.useDistanceField) // if use distance field 
 			{

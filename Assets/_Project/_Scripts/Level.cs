@@ -7,6 +7,7 @@ public class Level : MonoBehaviour
 	public Transform firstBallPosition;
 	public GameObject[] flags;
 	public Material skybox;
+	public Transform firstWorld;
 	
 	public void Setup()
     {
@@ -14,6 +15,9 @@ public class Level : MonoBehaviour
 	    foreach(var flag in flags)
 	    {
 	    	flag.SetActive(false);
+	    	
+	    	Flag f = flag.GetComponentInChildren<Flag>();
+	    	f.gameObject.SetActive(true);
 	    }
 	    
 	    flags[0].SetActive(true);
